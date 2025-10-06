@@ -1,6 +1,6 @@
-# 🕒 PyTime - A Clock Made by Two Friends
+# 🕒 PyTime - 
 
-A simple yet fun Python clock built by two friends who decided to stop being late... by coding their own timekeeper!
+Time flies, but we coded it anyway. A Python clock created by two friends trying to master both time and code.
 
 ## 🐍 About the Project
 This project was made just for fun and learning purposes.  
