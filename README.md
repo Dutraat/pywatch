@@ -14,4 +14,4 @@ It shows the current time in hours, minutes, and seconds — all powered by Pyth
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/Dutraat/pywatch.git
