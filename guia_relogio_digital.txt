@@ -1,0 +1,25 @@
+🕒 Projeto Relógio Digital em Python – Resumo
+🎯 Objetivo:
+
+Criar um relógio digital com interface gráfica em Python, com possibilidade de aplicar temas personalizados e recursos extras como alarme ou cronômetro.
+
+📚 Conceitos a Estudar:
+
+Manipulação de hora: datetime, time
+
+Atualização de interface em tempo real (com QTimer)
+
+Interface gráfica (GUI)
+
+Aplicação de temas (estilo visual com QSS)
+
+🧰 Bibliotecas Recomendadas:
+✅ PyQt5 / PyQt6 / PySide6
+
+Interface moderna e profissional
+
+Suporte a temas e estilos com QSS (estilo similar ao CSS)
+
+Componentes visuais ricos (botões, sliders, labels, etc)
+
+Ideal para customização e aplicações visuais mais elaboradas
