@@ -15,3 +15,5 @@ Aplicação de temas (estilo visual com QSS)
 
 🧰 Bibliotecas Recomendadas:
 ✅ PyQt5 / PyQt6 / PySide6
+
+material de estudo: https://www.pythonguis.com/tutorials/qpropertyanimation/
