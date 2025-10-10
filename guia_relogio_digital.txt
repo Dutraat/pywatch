@@ -15,11 +15,3 @@ Aplicação de temas (estilo visual com QSS)
 
 🧰 Bibliotecas Recomendadas:
 ✅ PyQt5 / PyQt6 / PySide6
-
-Interface moderna e profissional
-
-Suporte a temas e estilos com QSS (estilo similar ao CSS)
-
-Componentes visuais ricos (botões, sliders, labels, etc)
-
-Ideal para customização e aplicações visuais mais elaboradas
