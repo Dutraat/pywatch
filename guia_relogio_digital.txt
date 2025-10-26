@@ -1,0 +1,66 @@
+# 🕒 PyTime – Projeto Relógio Digital em Python
+
+> *Time flies, but we coded it anyway.*
+> Um projeto que une aprendizado, design e código: um relógio digital em Python com interface gráfica, lembretes e integração com hardware.
+
+---
+
+## 🎯 Objetivo
+
+Criar um **relógio digital com interface visual em Python**, capaz de exibir o horário em tempo real e, futuramente, integrar recursos como:
+- alarmes,
+- cronômetro,
+- lembretes,
+- e até exibição física em um hardware externo (ex: display LCD, Arduino, ESP32 etc).
+
+O projeto tem como foco o **aprendizado modular**, separando as partes do código em pequenos programas que, no final, se integram.
+
+---
+
+## 🧩 Estrutura do Projeto
+
+| Etapa | Programa | Descrição |
+|-------|-----------|-----------|
+| 1️⃣ | `clock.py` | Exibe o relógio em tempo real usando PyQt (QTimer + QLabel). |
+| 2️⃣ | `reminders.py` | Gerencia lembretes e notificações locais. |
+| 3️⃣ | `storage.py` | Armazena dados (ex: lembretes e alarmes) em JSON ou SQLite. |
+| 4️⃣ | `interface.py` | Junta todos os elementos da interface visual (janela principal, botões, tema). |
+| 5️⃣ | `hardware.py` | Envia dados para um display físico via comunicação serial. |
+| 6️⃣ | `main.py` | Integra todos os módulos e executa o programa completo. |
+
+---
+
+## 📚 Conceitos a Estudar
+
+| Tema | Descrição |
+|------|------------|
+| ⏰ **Manipulação de hora** | Uso das bibliotecas `datetime` e `time` para capturar e formatar horários. |
+| 🔁 **Atualização em tempo real** | Uso do `QTimer` (PyQt/PySide) para atualizar o relógio a cada segundo. |
+| 🖥️ **Interface gráfica (GUI)** | Construção de janelas e componentes com `PyQt5`, `PyQt6` ou `PySide6`. |
+| 🎨 **Aplicação de temas** | Personalização do estilo visual usando **QSS** (Qt Style Sheets). |
+| 🧠 **Armazenamento** | Leitura e escrita de arquivos JSON ou banco de dados SQLite para salvar lembretes. |
+| 🔌 **Integração com hardware (opcional)** | Comunicação via `pyserial` para exibir a hora ou alarmes em um display externo. |
+
+---
+
+## 🧰 Bibliotecas Recomendadas
+
+✅ `PyQt5` / `PyQt6` / `PySide6` – Interface gráfica
+✅ `datetime`, `time` – Manipulação de hora
+✅ `json` ou `sqlite3` – Armazenamento local
+✅ `pyserial` – Comunicação com hardware (opcional)
+
+📖 **Material de Estudo:**
+- [Tutorial oficial sobre animações no PyQt](https://www.pythonguis.com/tutorials/qpropertyanimation/)
+
+---
+
+## 🚀 Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Dutraat/pywatch.git
+
+
+# teste
+

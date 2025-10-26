@@ -1,4 +1,4 @@
-# 🕒 PyTime - 
+# 🕒 PyTime -
 
 Time flies, but we coded it anyway. A Python clock created by two friends trying to master both time and code.
 
@@ -7,7 +7,7 @@ This project was made just for fun and learning purposes.
 It shows the current time in hours, minutes, and seconds — all powered by Python!
 
 ## ⚙️ Features
-- Displays real-time hours, minutes, and seconds  
+- Displays real-time hours, minutes, and seconds
 - Simple and clean interface  
 - 100% made with Python 🧠  
 
